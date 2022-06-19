@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    min-width: 1440px;
+      
+}
+nav{
+    position:fixed;
+    border-radius: 19px;
+    border: 2px solid black;
+    background-color: rosybrown;
+    width: 90px;
+    padding: 11px;
+    margin: 3px;
+    text-align:center;
+   
+}
+
+
+div.container{
+    display: flex;
+    flex-shrink: 1;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+    
+img{
+    height: 30px;
+}
+img.topimg{
+    background-color: hsl(31, 77%, 52%);
+}
+img.secondimg{
+    background-color:hsl(184, 100%, 22%);
+}
+img.bottomimg{
+    background-color: hsl(179, 100%, 13%);
+} 
+
+div.first{
+    height: 72vh;
+    padding: 30px ;
+    background-color: hsl(31, 77%, 52%);
+}
+
+div.second{
+    background-color:hsl(184, 100%, 22%);
+    height: 72vh;
+    padding: 30px;
+    
+    
+
+}
+
+div.third{
+    background-color:hsl(179, 100%, 13%);
+    height:  72vh;
+    padding: 30px;
+    
+}
+h2{
+    padding: 10px;
+    font-size: 29px;
+    font-family:'Open Sans',sans-serif;
+    font-weight: 400;
+    color: white;
+   
+}
+
+p{
+    padding: 10px;
+    font-size: 15px;
+    font-family:'lexend deca';
+    font-weight: 400; 
+    bottom: 20%;
+    color:hsl(0, 0%, 100%, 0.75);
+    line-height: 200%;
+    
+}
+button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute; 
+    border-style: solid;
+}
+button.act1{
+    cursor: pointer;
+    top: 72%;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border: 2px white;
+
+
+}
+button.act2{
+    cursor: pointer;
+    top: 72%;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border: 2px white;
+    
+
+}
+button.act3{
+    border-radius: 20px;
+    cursor: pointer;
+    top: 72%;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border: 2px;
+    padding: 12px;
+
+}
+button.act1:hover{
+    cursor: pointer;
+    top: 72%;
+    background-color:hsl(31, 77%, 52%);
+    color: rgb(228, 218, 218);
+    border: 2px white;
+    border-style: solid;
+
+}
+button.act2:hover{
+    cursor: pointer;
+    top: 72%;
+    background-color:hsl(184, 100%, 22%);
+    color: rgb(228, 218, 218);
+    border: 2px white;
+    border-style: solid;
+
+}
+button.act3:hover{
+    cursor: pointer;
+    top: 72%;
+    background-color:hsl(179, 100%, 13%);
+    color: rgb(228, 218, 218);
+    border: 2px white;
+    border-style: solid;
+
+}
+
+
+
