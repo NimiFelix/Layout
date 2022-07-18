@@ -11,13 +11,17 @@ body{
 nav{
     position:fixed;
     border-radius: 19px;
-    border: 2px solid black;
+    border: 2px ;
     background-color: rosybrown;
     width: 90px;
     padding: 11px;
     margin: 3px;
     text-align:center;
    
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 228, 196, 0.897);
 }
 
 
